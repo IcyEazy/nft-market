@@ -37,7 +37,7 @@ function MostPopular() {
       </div>
       <div className="overflow-y-hidden flex flex-col md:flex-row items-center md:items-start gap-20 md:gap-4 mt-16 justify-between overflow-x-hidden">
         {mostPopularNfts.map((nft) => (
-          <NavLink to={`/${nft.id}`}>
+          <NavLink to={`/nft-market/${nft.id}`}>
             <div
               key={nft.id}
               className="flex flex-col items-center md:items-start gap-3 hover:scale-110 transition-all delay-150 ease-linear"

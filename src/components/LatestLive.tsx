@@ -44,7 +44,7 @@ function LatestLive() {
           className="flex gap-4 flex-shrink-0"
         >
           {nfts.map((nft) => (
-            <NavLink to={`/${nft.id}`}>
+            <NavLink to={`/nft-market/${nft.id}`}>
               <div
                 key={nft.id}
                 className="flex-shrink-0 w-[448px] h-[767px] flex flex-col justify-between border-[1px] border-[#545886] rounded-[20px] p-4 hover:scale-90 transition-all delay-150 ease-linear"

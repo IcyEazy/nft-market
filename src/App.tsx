@@ -11,8 +11,8 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/:id" element={<NftDetails />} />
+          <Route path="/nft-market/" element={<Home />} />
+          <Route path="/nft-market/:id" element={<NftDetails />} />
         </Routes>
       </BrowserRouter>
     </div>

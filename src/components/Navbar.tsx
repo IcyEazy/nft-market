@@ -7,7 +7,7 @@ import logo from "../assets/Sygnet.svg";
 function Navbar() {
   return (
     <div className="flex items-center justify-between px-10 py-8">
-      <NavLink to="/">
+      <NavLink to="/nft-market/">
         <div className="flex items-center gap-3">
           <img src={logo} alt="" />
           <img src={nftMarket} alt="" />
@@ -16,7 +16,7 @@ function Navbar() {
       <div className="lg:flex items-center gap-8 lg:gap-12 hidden font-[600] text-[16px] text-[#7780A1]">
         <NavLink
           className="hover:text-white hover:scale-105 transition-all delay-150 ease-linear"
-          to="/"
+          to="/nft-market/"
         >
           Auctions
         </NavLink>
